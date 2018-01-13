@@ -1,0 +1,557 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 48;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		3E8738FE200AA17A00BCB849 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3E8738FD200AA17A00BCB849 /* AppDelegate.swift */; };
+		3E873900200AA17A00BCB849 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3E8738FF200AA17A00BCB849 /* ViewController.swift */; };
+		3E873903200AA17A00BCB849 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3E873901200AA17A00BCB849 /* Main.storyboard */; };
+		3E873905200AA17A00BCB849 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3E873904200AA17A00BCB849 /* Assets.xcassets */; };
+		3E873908200AA17A00BCB849 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3E873906200AA17A00BCB849 /* LaunchScreen.storyboard */; };
+		3E873913200AA17B00BCB849 /* Tumbler_PeopleTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3E873912200AA17B00BCB849 /* Tumbler_PeopleTests.swift */; };
+		3E87391E200AA17B00BCB849 /* Tumbler_PeopleUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3E87391D200AA17B00BCB849 /* Tumbler_PeopleUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		3E87390F200AA17A00BCB849 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 3E8738F2200AA17A00BCB849 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 3E8738F9200AA17A00BCB849;
+			remoteInfo = "Tumbler-People";
+		};
+		3E87391A200AA17B00BCB849 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 3E8738F2200AA17A00BCB849 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 3E8738F9200AA17A00BCB849;
+			remoteInfo = "Tumbler-People";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		3E8738FA200AA17A00BCB849 /* Tumbler-People.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Tumbler-People.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		3E8738FD200AA17A00BCB849 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		3E8738FF200AA17A00BCB849 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		3E873902200AA17A00BCB849 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		3E873904200AA17A00BCB849 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		3E873907200AA17A00BCB849 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		3E873909200AA17A00BCB849 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		3E87390E200AA17A00BCB849 /* Tumbler-PeopleTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Tumbler-PeopleTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		3E873912200AA17B00BCB849 /* Tumbler_PeopleTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Tumbler_PeopleTests.swift; sourceTree = "<group>"; };
+		3E873914200AA17B00BCB849 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		3E873919200AA17B00BCB849 /* Tumbler-PeopleUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Tumbler-PeopleUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		3E87391D200AA17B00BCB849 /* Tumbler_PeopleUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Tumbler_PeopleUITests.swift; sourceTree = "<group>"; };
+		3E87391F200AA17B00BCB849 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		3E8738F7200AA17A00BCB849 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3E87390B200AA17A00BCB849 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3E873916200AA17B00BCB849 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		3E8738F1200AA17A00BCB849 = {
+			isa = PBXGroup;
+			children = (
+				3E8738FC200AA17A00BCB849 /* Tumbler-People */,
+				3E873911200AA17A00BCB849 /* Tumbler-PeopleTests */,
+				3E87391C200AA17B00BCB849 /* Tumbler-PeopleUITests */,
+				3E8738FB200AA17A00BCB849 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		3E8738FB200AA17A00BCB849 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				3E8738FA200AA17A00BCB849 /* Tumbler-People.app */,
+				3E87390E200AA17A00BCB849 /* Tumbler-PeopleTests.xctest */,
+				3E873919200AA17B00BCB849 /* Tumbler-PeopleUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		3E8738FC200AA17A00BCB849 /* Tumbler-People */ = {
+			isa = PBXGroup;
+			children = (
+				3E8738FD200AA17A00BCB849 /* AppDelegate.swift */,
+				3E8738FF200AA17A00BCB849 /* ViewController.swift */,
+				3E873901200AA17A00BCB849 /* Main.storyboard */,
+				3E873904200AA17A00BCB849 /* Assets.xcassets */,
+				3E873906200AA17A00BCB849 /* LaunchScreen.storyboard */,
+				3E873909200AA17A00BCB849 /* Info.plist */,
+			);
+			path = "Tumbler-People";
+			sourceTree = "<group>";
+		};
+		3E873911200AA17A00BCB849 /* Tumbler-PeopleTests */ = {
+			isa = PBXGroup;
+			children = (
+				3E873912200AA17B00BCB849 /* Tumbler_PeopleTests.swift */,
+				3E873914200AA17B00BCB849 /* Info.plist */,
+			);
+			path = "Tumbler-PeopleTests";
+			sourceTree = "<group>";
+		};
+		3E87391C200AA17B00BCB849 /* Tumbler-PeopleUITests */ = {
+			isa = PBXGroup;
+			children = (
+				3E87391D200AA17B00BCB849 /* Tumbler_PeopleUITests.swift */,
+				3E87391F200AA17B00BCB849 /* Info.plist */,
+			);
+			path = "Tumbler-PeopleUITests";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		3E8738F9200AA17A00BCB849 /* Tumbler-People */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3E873922200AA17B00BCB849 /* Build configuration list for PBXNativeTarget "Tumbler-People" */;
+			buildPhases = (
+				3E8738F6200AA17A00BCB849 /* Sources */,
+				3E8738F7200AA17A00BCB849 /* Frameworks */,
+				3E8738F8200AA17A00BCB849 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Tumbler-People";
+			productName = "Tumbler-People";
+			productReference = 3E8738FA200AA17A00BCB849 /* Tumbler-People.app */;
+			productType = "com.apple.product-type.application";
+		};
+		3E87390D200AA17A00BCB849 /* Tumbler-PeopleTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3E873925200AA17B00BCB849 /* Build configuration list for PBXNativeTarget "Tumbler-PeopleTests" */;
+			buildPhases = (
+				3E87390A200AA17A00BCB849 /* Sources */,
+				3E87390B200AA17A00BCB849 /* Frameworks */,
+				3E87390C200AA17A00BCB849 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				3E873910200AA17A00BCB849 /* PBXTargetDependency */,
+			);
+			name = "Tumbler-PeopleTests";
+			productName = "Tumbler-PeopleTests";
+			productReference = 3E87390E200AA17A00BCB849 /* Tumbler-PeopleTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		3E873918200AA17B00BCB849 /* Tumbler-PeopleUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3E873928200AA17B00BCB849 /* Build configuration list for PBXNativeTarget "Tumbler-PeopleUITests" */;
+			buildPhases = (
+				3E873915200AA17B00BCB849 /* Sources */,
+				3E873916200AA17B00BCB849 /* Frameworks */,
+				3E873917200AA17B00BCB849 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				3E87391B200AA17B00BCB849 /* PBXTargetDependency */,
+			);
+			name = "Tumbler-PeopleUITests";
+			productName = "Tumbler-PeopleUITests";
+			productReference = 3E873919200AA17B00BCB849 /* Tumbler-PeopleUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		3E8738F2200AA17A00BCB849 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0920;
+				LastUpgradeCheck = 0920;
+				ORGANIZATIONNAME = "Eli Scherrer";
+				TargetAttributes = {
+					3E8738F9200AA17A00BCB849 = {
+						CreatedOnToolsVersion = 9.2;
+						ProvisioningStyle = Automatic;
+					};
+					3E87390D200AA17A00BCB849 = {
+						CreatedOnToolsVersion = 9.2;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 3E8738F9200AA17A00BCB849;
+					};
+					3E873918200AA17B00BCB849 = {
+						CreatedOnToolsVersion = 9.2;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 3E8738F9200AA17A00BCB849;
+					};
+				};
+			};
+			buildConfigurationList = 3E8738F5200AA17A00BCB849 /* Build configuration list for PBXProject "Tumbler-People" */;
+			compatibilityVersion = "Xcode 8.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 3E8738F1200AA17A00BCB849;
+			productRefGroup = 3E8738FB200AA17A00BCB849 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				3E8738F9200AA17A00BCB849 /* Tumbler-People */,
+				3E87390D200AA17A00BCB849 /* Tumbler-PeopleTests */,
+				3E873918200AA17B00BCB849 /* Tumbler-PeopleUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		3E8738F8200AA17A00BCB849 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3E873908200AA17A00BCB849 /* LaunchScreen.storyboard in Resources */,
+				3E873905200AA17A00BCB849 /* Assets.xcassets in Resources */,
+				3E873903200AA17A00BCB849 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3E87390C200AA17A00BCB849 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3E873917200AA17B00BCB849 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		3E8738F6200AA17A00BCB849 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3E873900200AA17A00BCB849 /* ViewController.swift in Sources */,
+				3E8738FE200AA17A00BCB849 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3E87390A200AA17A00BCB849 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3E873913200AA17B00BCB849 /* Tumbler_PeopleTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3E873915200AA17B00BCB849 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3E87391E200AA17B00BCB849 /* Tumbler_PeopleUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		3E873910200AA17A00BCB849 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 3E8738F9200AA17A00BCB849 /* Tumbler-People */;
+			targetProxy = 3E87390F200AA17A00BCB849 /* PBXContainerItemProxy */;
+		};
+		3E87391B200AA17B00BCB849 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 3E8738F9200AA17A00BCB849 /* Tumbler-People */;
+			targetProxy = 3E87391A200AA17B00BCB849 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		3E873901200AA17A00BCB849 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				3E873902200AA17A00BCB849 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		3E873906200AA17A00BCB849 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				3E873907200AA17A00BCB849 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		3E873920200AA17B00BCB849 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		3E873921200AA17B00BCB849 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		3E873923200AA17B00BCB849 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "Tumbler-People/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.elischerrer.Tumbler-People";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		3E873924200AA17B00BCB849 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "Tumbler-People/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.elischerrer.Tumbler-People";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		3E873926200AA17B00BCB849 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "Tumbler-PeopleTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.elischerrer.Tumbler-PeopleTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Tumbler-People.app/Tumbler-People";
+			};
+			name = Debug;
+		};
+		3E873927200AA17B00BCB849 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "Tumbler-PeopleTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.elischerrer.Tumbler-PeopleTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Tumbler-People.app/Tumbler-People";
+			};
+			name = Release;
+		};
+		3E873929200AA17B00BCB849 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "Tumbler-PeopleUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.elischerrer.Tumbler-PeopleUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "Tumbler-People";
+			};
+			name = Debug;
+		};
+		3E87392A200AA17B00BCB849 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "Tumbler-PeopleUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.elischerrer.Tumbler-PeopleUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "Tumbler-People";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		3E8738F5200AA17A00BCB849 /* Build configuration list for PBXProject "Tumbler-People" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3E873920200AA17B00BCB849 /* Debug */,
+				3E873921200AA17B00BCB849 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		3E873922200AA17B00BCB849 /* Build configuration list for PBXNativeTarget "Tumbler-People" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3E873923200AA17B00BCB849 /* Debug */,
+				3E873924200AA17B00BCB849 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		3E873925200AA17B00BCB849 /* Build configuration list for PBXNativeTarget "Tumbler-PeopleTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3E873926200AA17B00BCB849 /* Debug */,
+				3E873927200AA17B00BCB849 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		3E873928200AA17B00BCB849 /* Build configuration list for PBXNativeTarget "Tumbler-PeopleUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3E873929200AA17B00BCB849 /* Debug */,
+				3E87392A200AA17B00BCB849 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 3E8738F2200AA17A00BCB849 /* Project object */;
+}

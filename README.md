@@ -1,6 +1,6 @@
-# Lab 1 - *Name of App Here*
+# Lab 1 - *Tumbler-People*
 
-**Name of your app** is a photo browsing app using the [The Tumblr API](https://www.tumblr.com/docs/en/api/v2#posts).
+**Tumbler-People** is a photo browsing app using the [The Tumblr API](https://www.tumblr.com/docs/en/api/v2#posts).
 
 Time spent: **X** hours spent in total
 

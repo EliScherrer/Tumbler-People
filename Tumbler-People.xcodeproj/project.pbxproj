@@ -7,8 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		3E3B5C4B200AA56A00A86344 /* PhotosViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3E3B5C4A200AA56A00A86344 /* PhotosViewController.swift */; };
 		3E8738FE200AA17A00BCB849 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3E8738FD200AA17A00BCB849 /* AppDelegate.swift */; };
-		3E873900200AA17A00BCB849 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3E8738FF200AA17A00BCB849 /* ViewController.swift */; };
 		3E873903200AA17A00BCB849 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3E873901200AA17A00BCB849 /* Main.storyboard */; };
 		3E873905200AA17A00BCB849 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3E873904200AA17A00BCB849 /* Assets.xcassets */; };
 		3E873908200AA17A00BCB849 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3E873906200AA17A00BCB849 /* LaunchScreen.storyboard */; };
@@ -38,9 +38,9 @@
 
 /* Begin PBXFileReference section */
 		0938BC108C05C8168098B218 /* Pods_Tumbler_People.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Tumbler_People.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		3E3B5C4A200AA56A00A86344 /* PhotosViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PhotosViewController.swift; sourceTree = "<group>"; };
 		3E8738FA200AA17A00BCB849 /* Tumbler-People.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Tumbler-People.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		3E8738FD200AA17A00BCB849 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		3E8738FF200AA17A00BCB849 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		3E873902200AA17A00BCB849 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		3E873904200AA17A00BCB849 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		3E873907200AA17A00BCB849 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -128,11 +128,11 @@
 			isa = PBXGroup;
 			children = (
 				3E8738FD200AA17A00BCB849 /* AppDelegate.swift */,
-				3E8738FF200AA17A00BCB849 /* ViewController.swift */,
 				3E873901200AA17A00BCB849 /* Main.storyboard */,
 				3E873904200AA17A00BCB849 /* Assets.xcassets */,
 				3E873906200AA17A00BCB849 /* LaunchScreen.storyboard */,
 				3E873909200AA17A00BCB849 /* Info.plist */,
+				3E3B5C4A200AA56A00A86344 /* PhotosViewController.swift */,
 			);
 			path = "Tumbler-People";
 			sourceTree = "<group>";
@@ -460,8 +460,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				3E873900200AA17A00BCB849 /* ViewController.swift in Sources */,
 				3E8738FE200AA17A00BCB849 /* AppDelegate.swift in Sources */,
+				3E3B5C4B200AA56A00A86344 /* PhotosViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

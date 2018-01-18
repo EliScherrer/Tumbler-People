@@ -10,6 +10,9 @@ import UIKit
 
 class PhotoTableViewCell: UITableViewCell {
 
+    
+    @IBOutlet weak var photoView: UIImageView!
+    
     override func awakeFromNib() {
         super.awakeFromNib()
         // Initialization code
@@ -22,3 +25,7 @@ class PhotoTableViewCell: UITableViewCell {
     }
 
 }
+
+/*file: Main.storyboard: error: Illegal Configuration: The PhotoCell outlet from the PhotosViewController to the PhotoTableViewCell is invalid. Outlets cannot be connected to repeating content.
+*/
+

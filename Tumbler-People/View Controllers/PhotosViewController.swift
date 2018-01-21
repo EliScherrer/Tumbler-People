@@ -55,6 +55,10 @@ class PhotosViewController: UIViewController, UITableViewDataSource, UITableView
         return cell
     }
     
+    //Get rid of the gray selection effect by deselecting the cell with animation
+    func tableView(_ photoTableView: UITableView, didSelectRowAt indexPath: IndexPath) {
+        photoTableView.deselectRow(at: indexPath, animated: false)
+    }
 
     func requestTumblerData() {
         // Network request snippet
@@ -79,6 +83,31 @@ class PhotosViewController: UIViewController, UITableViewDataSource, UITableView
             }
         }
         task.resume()
+    }
+    
+    override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
+        let cell = sender as! UITableViewCell
+        if let indexPath = photoTableView.indexPath(for: cell ) {
+            let post = posts[indexPath.row]
+            let detailViewController = segue.destination as! PhotoDetailsViewController
+            
+            
+            if let photos = post["photos"] as? [[String: Any]] {
+                
+                let photo = photos[0]
+                let originalSize = photo["original_size"] as! [String: Any]
+                let urlString = originalSize["url"] as! String
+                
+                let url = URL(string: urlString)
+                
+                detailViewController.photoURL = url!
+
+            }
+            
+            
+            
+        }
+        
     }
 
 }

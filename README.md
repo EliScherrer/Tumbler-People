@@ -30,7 +30,7 @@ Please list two areas of the assignment you'd like to **discuss further with you
 
 Here's a walkthrough of implemented user stories:
 
-![Imgur](https://i.imgur.com/r52xEc2.gif)
+gif is too large for github -> https://i.imgur.com/r52xEc2.gif
 
 GIF created with [LiceCap](http://www.cockos.com/licecap/).
 
